@@ -31,13 +31,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
+import com.mapquest.android.maps.MapActivity;
 
 import java.io.FileDescriptor;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import com.google.android.maps.MapActivity;
 
 /**
  * Base class for activities that want to use the support-based
@@ -730,7 +729,7 @@ public class FragmentActivity extends MapActivity {
     }
 
     @Override
-    protected boolean isRouteDisplayed() {
+    public boolean isRouteDisplayed() {
         return false;
     }
 }

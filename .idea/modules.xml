@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/samples/FragmentLayoutMaps/FragmentLayoutMaps.iml" filepath="$PROJECT_DIR$/samples/FragmentLayoutMaps/FragmentLayoutMaps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v13/V13.iml" filepath="$PROJECT_DIR$/v13/V13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/v4/V4.iml" filepath="$PROJECT_DIR$/v4/V4.iml" />
+    </modules>
+  </component>
+</project>
+
