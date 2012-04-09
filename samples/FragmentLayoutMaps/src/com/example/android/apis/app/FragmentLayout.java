@@ -16,12 +16,9 @@
 
 package com.example.android.apis.app;
 
+import android.R;
 import com.example.android.apis.Locations;
 import com.example.android.apis.Locations.Entry;
-import com.example.android.apis.R;
-import com.google.android.maps.GeoPoint;
-import com.google.android.maps.MapController;
-import com.google.android.maps.MapView;
 
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.Fragment;
@@ -34,6 +31,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import com.mapquest.android.maps.GeoPoint;
+import com.mapquest.android.maps.MapController;
+import com.mapquest.android.maps.MapView;
 
 /**
  * Demonstration of using fragments to implement different activity layouts.
